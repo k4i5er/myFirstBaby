@@ -1,0 +1,88 @@
+/* SELECTOR DE ETIQUETA */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+#intro {
+    width: 100vw;
+    height: 25vh;
+    background-color: tomato;
+    position: relative;
+}
+
+#about {
+    width: 100vw;
+    height: 25vh;
+    background-color: papayawhip;
+    position: relative;
+}
+
+#fun {
+    width: 100vw;
+    height: 25vh;
+    background-color: yellow;
+    position: relative;
+}
+
+#contacto {
+    width: 100vw;
+    height: 25vh;
+    background-color: peru;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    display: inline;
+}
+
+#about h2 {
+    position: absolute;
+    text-align: center;
+    display: inline;
+}
+
+#about p {
+    position:absolute;
+    bottom: 0%;
+}
+
+#fun p {
+    position: absolute;
+    display: inline;
+    
+}
+
+#contacto h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+ .social{
+    position: relative;
+}
+
+.social a {
+    /* position: absolute; */
+    bottom: 0%;
+    
+}
+/* about me enmedio arriba
+    palabras de about, esquina inf izq
+
+    funfact ahí
+    texto fun fact misma línea, derecha
+
+    contacto enmedio
+    redes sociales enmedio abajo
+*/
